@@ -1,0 +1,31 @@
+.auth-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.auth-toggle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.auth-toggle button {
+  padding: 10px 20px;
+  border: none;
+  background-color: lightgray;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-toggle .active {
+  background-color: green;
+  color: white;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
